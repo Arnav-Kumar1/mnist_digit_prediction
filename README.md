@@ -50,7 +50,7 @@ This Handwritten Digit Recognition System is deployed on Amazon EC2 (Elastic Com
 ### Deployment Details
 
 - **Hosting Platform:** Amazon EC2
-- **URL:** [https:Uurlzs.com/eS5iY]
+- **URL:** [(https:Uurlzs.com/eS5iY)]
 
 ### Deployment Guide
 
