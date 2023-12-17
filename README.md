@@ -19,9 +19,9 @@ The system comprises a Flask backend serving a trained CNN model and a frontend 
 1. Clone this repository:
 
    ```bash
-   git clone <https://github.com/Arnav-Kumar1/mnist_digit_prediction.git>
-   cd <Breadcrumbsmnist_digit_prediction
->
+   git clone https://github.com/Arnav-Kumar1/mnist_digit_prediction.git
+   cd Breadcrumbsmnist_digit_prediction
+
 
 2. pip install -r requirements.txt in python>3.9
 3. make sure .h5 model is present in the models folder
