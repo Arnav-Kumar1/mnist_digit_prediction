@@ -1,4 +1,4 @@
-This README file covers the project's components, installation steps, file descriptions, usage instructions, model details, and acknowledgments. You can further expand or modify it as needed, adding more details or specific instructions if required.
+This README file covers the project's components, installation steps, file descriptions, usage instructions, model details, and acknowledgments.
 
 # Handwritten Digit Recognition System
 
