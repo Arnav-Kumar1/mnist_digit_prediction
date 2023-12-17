@@ -20,7 +20,7 @@ The system comprises a Flask backend serving a trained CNN model and a frontend 
 
    ```bash
    git clone https://github.com/Arnav-Kumar1/mnist_digit_prediction.git
-   <!-- Add a space or any other character here -->
+  
    cd mnist_digit_prediction
 
 
