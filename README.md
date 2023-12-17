@@ -20,12 +20,16 @@ The system comprises a Flask backend serving a trained CNN model and a frontend 
 
    ```bash
    git clone https://github.com/Arnav-Kumar1/mnist_digit_prediction.git
-  
+
+2.Navigate to the cloned repo using change directory
+   
+   ```bash
    cd mnist_digit_prediction
 
+3.  Activate virtual environment and install all requirements
 
-2. pip install -r requirements.txt in python>3.9
-3. make sure .h5 model is present in the models folder
+   ```bash
+   pip install -r requirements.txt in python>3.9
 
 ### File Descriptions
 
