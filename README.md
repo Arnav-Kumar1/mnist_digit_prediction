@@ -1,1 +1,92 @@
-# mnist_digit_prediction
+This README file covers the project's components, installation steps, file descriptions, usage instructions, model details, and acknowledgments. You can further expand or modify it as needed, adding more details or specific instructions if required.
+
+# Handwritten Digit Recognition System
+
+This project utilizes a Convolutional Neural Network (CNN) trained on the MNIST dataset to recognize and predict handwritten digits. It provides a web-based interface for users to draw digits and get real-time predictions.
+
+## Overview
+
+The system comprises a Flask backend serving a trained CNN model and a frontend interface allowing users to draw digits on a canvas for recognition.
+
+### Key Components
+
+- **Backend:** Flask server (`main.py`) handling prediction requests and model inference.
+- **Frontend:** HTML (`digit_recognition.html`) and JavaScript (`digit_recognition.js`) for the user interface and drawing functionalities.
+- **Trained Model:** `mnist_cnn_50epochs_latest.h5` file stored in the `models` folder.
+
+## Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>
+
+2. pip install -r requirements.txt in python>3.9
+3. make sure .h5 model is present in the models folder
+
+   File Descriptions
+digit_recognition.html
+This HTML file provides the user interface for drawing digits using an HTML canvas element.
+
+digit_recognition.js
+JavaScript code handling the canvas drawing functionality and interaction with the backend for digit prediction.
+
+main.py
+The Flask backend serving the prediction endpoint and containing the model inference logic.
+
+requirements.txt
+This file lists the required Python libraries for running the project.
+
+models/mnist_cnn_50epochs_latest.h5
+The trained CNN model for digit recognition.
+
+
+## Deployment on Amazon EC2
+
+This Handwritten Digit Recognition System is deployed on Amazon EC2 (Elastic Compute Cloud), providing a live web service for users.
+
+### Deployment Details
+
+- **Hosting Platform:** Amazon EC2
+- **URL:** [Your_Deployment_URL](https:Uurlzs.com/eS5iY) 
+
+### Deployment Guide
+
+For detailed instructions on deploying this project on Amazon EC2, we recommend watching the tutorial video on the Campus X YouTube channel:
+
+[Deployment Tutorial Video on Campus X]([https://youtube.com/campusx](https://www.youtube.com/watch?v=_rwNTY5Mn40))
+
+The video provides step-by-step guidance for setting up and deploying this system on Amazon EC2. It covers installation, configuration, and launching the service.
+
+**Note:** Ensure to follow security best practices and adapt the instructions to your specific EC2 setup.
+
+
+
+## Local server deploy  
+To deploy the system locally, follow these steps:
+
+Clone the Repository: Download or clone the entire repository onto your local machine.
+
+Create a Virtual Environment: Set up a virtual environment and activate it.
+
+Install Dependencies: Install all the required dependencies listed in the requirements.txt file using the following command:
+#### pip install -r requirements.txt
+
+Run the Flask Server: Execute the main.py file to start the Flask server.
+#### python main.py
+
+Access the Application: Once the server is running, open a web browser and navigate to the provided local hyperlink (Ctrl + left click) displayed in your IDE's console.
+
+Draw and Predict: Use the canvas interface to draw a digit. Click the "Predict" button to receive the predicted digit.
+
+Clear the Canvas: Utilize the "Clear" button to erase the canvas and draw a new digit.
+
+
+
+Model Details in handwritten_digit_prediction.ipynb
+Model File: mnist_cnn_50epochs_latest.h5
+Framework: TensorFlow and Keras
+Training: Trained on the MNIST dataset for 50 epochs.
+Acknowledgments
+Made by: Arnav Kumar
