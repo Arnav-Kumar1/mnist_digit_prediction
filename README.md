@@ -66,9 +66,6 @@ For detailed instructions on deploying this project on Amazon EC2, I recommend w
 
 The video provides step-by-step guidance for setting up and deploying this system on Amazon EC2. It covers installation, configuration, and launching the service.
 
-**Note:** Ensure to follow security best practices and adapt the instructions to your specific EC2 setup.
-
-
 
 ## Local Server Deployment
 
@@ -96,8 +93,6 @@ Use the canvas interface to draw a digit. Click the "Predict" button to receive 
 
 7. Clear the Canvas**
 Utilize the "Clear" button to erase the canvas and draw a new digit.
-
-
 
 
 
