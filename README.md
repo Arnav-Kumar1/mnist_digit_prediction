@@ -26,21 +26,17 @@ The system comprises a Flask backend serving a trained CNN model and a frontend 
 2. pip install -r requirements.txt in python>3.9
 3. make sure .h5 model is present in the models folder
 
-   File Descriptions
-digit_recognition.html
-This HTML file provides the user interface for drawing digits using an HTML canvas element.
+### File Descriptions
 
-digit_recognition.js
-JavaScript code handling the canvas drawing functionality and interaction with the backend for digit prediction.
+- **digit_recognition.html**: This HTML file provides the user interface for drawing digits using an HTML canvas element.
 
-main.py
-The Flask backend serving the prediction endpoint and containing the model inference logic.
+- **digit_recognition.js**: JavaScript code handling the canvas drawing functionality and interaction with the backend for digit prediction.
 
-requirements.txt
-This file lists the required Python libraries for running the project.
+- **main.py**: The Flask backend serving the prediction endpoint and containing the model inference logic.
 
-models/mnist_cnn_50epochs_latest.h5
-The trained CNN model for digit recognition.
+- **requirements.txt**: This file lists the required Python libraries for running the project.
+
+- **models/mnist_cnn_50epochs_latest.h5**: The trained CNN model for digit recognition.
 
 
 ## Deployment on Amazon EC2
