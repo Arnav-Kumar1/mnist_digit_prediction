@@ -16,18 +16,23 @@ The system comprises a Flask backend serving a trained CNN model and a frontend 
 
 ## Installation
 
-1. Clone this repository:
+1. **Clone this repository in linux terminal or command prompt in any directory:**
 
-   ```bash
-   git clone https://github.com/Arnav-Kumar1/mnist_digit_prediction.git
+    ```bash
+    git clone https://github.com/Arnav-Kumar1/mnist_digit_prediction.git
+    ```
 
-2.Navigate to the cloned repo using change directory
-   
-   cd mnist_digit_prediction
+2. **Navigate to the cloned repo using below bash command or just double click the recently cloned folder if you are on windows:**
 
-3.  Activate virtual environment and install all requirements
+    ```bash
+    cd mnist_digit_prediction
+    ```
 
-   pip install -r requirements.txt in python>3.9
+3. **Activate virtual environment and install all requirements (Python > 3.9):**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 
 ### File Descriptions
