@@ -56,7 +56,8 @@ This Handwritten Digit Recognition System is deployed on Amazon EC2 (Elastic Com
 
 For detailed instructions on deploying this project on Amazon EC2, we recommend watching the tutorial video on the Campus X YouTube channel:
 
-[Deployment Tutorial Video on Campus X]([https://youtube.com/campusx](https://www.youtube.com/watch?v=_rwNTY5Mn40))
+- ** Deployment Tutorial Video on Campus X
+- **URL:** [Model Deployment on EC2](https://www.youtube.com/watch?v=_rwNTY5Mn40)
 
 The video provides step-by-step guidance for setting up and deploying this system on Amazon EC2. It covers installation, configuration, and launching the service.
 
@@ -64,24 +65,34 @@ The video provides step-by-step guidance for setting up and deploying this syste
 
 
 
-## Local server deploy  
+## Local Server Deployment
+
 To deploy the system locally, follow these steps:
 
-Clone the Repository: Download or clone the entire repository onto your local machine.
+1. **Clone the Repository:** Download or clone the entire repository onto your local machine.
 
-Create a Virtual Environment: Set up a virtual environment and activate it.
+2. **Create a Virtual Environment:** Set up a virtual environment and activate it.
 
-Install Dependencies: Install all the required dependencies listed in the requirements.txt file using the following command:
-#### pip install -r requirements.txt
+3. **Install Dependencies:** Install all the required dependencies listed in the `requirements.txt` file using the following command:
 
-Run the Flask Server: Execute the main.py file to start the Flask server.
-#### python main.py
+   ```bash
+   pip install -r requirements.txt
 
-Access the Application: Once the server is running, open a web browser and navigate to the provided local hyperlink (Ctrl + left click) displayed in your IDE's console.
+4. Run the Flask Server**
+     Execute the `main.py` file to start the Flask server.
+   ```bash
+   python main.py
 
-Draw and Predict: Use the canvas interface to draw a digit. Click the "Predict" button to receive the predicted digit.
+5. Access the Application**
+Once the server is running, open a web browser and navigate to the provided local hyperlink (Ctrl + left click) displayed in your IDE's console.
 
-Clear the Canvas: Utilize the "Clear" button to erase the canvas and draw a new digit.
+6. Draw a Digit and Predict**
+Use the canvas interface to draw a digit. Click the "Predict" button to receive the predicted digit.
+
+7. Clear the Canvas**
+Utilize the "Clear" button to erase the canvas and draw a new digit.
+
+
 
 
 
