@@ -52,7 +52,7 @@ This Handwritten Digit Recognition System is deployed on Amazon EC2 (Elastic Com
 
 For detailed instructions on deploying this project on Amazon EC2, I recommend watching the tutorial video on the Campus X YouTube channel:
 
-- ** Deployment Tutorial Video on Campus X
+- **Deployment Tutorial:** CampusX YT channel
 - **URL:** [Model Deployment on EC2](https://www.youtube.com/watch?v=_rwNTY5Mn40)
 
 The video provides step-by-step guidance for setting up and deploying this system on Amazon EC2. It covers installation, configuration, and launching the service.
