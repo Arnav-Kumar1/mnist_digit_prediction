@@ -92,9 +92,15 @@ Utilize the "Clear" button to erase the canvas and draw a new digit.
 
 
 
-Model Details in handwritten_digit_prediction.ipynb
-Model File: mnist_cnn_50epochs_latest.h5
-Framework: TensorFlow and Keras
-Training: Trained on the MNIST dataset for 50 epochs.
-Acknowledgments
-Made by: Arnav Kumar
+### Model Details in handwritten_digit_prediction.ipynb
+
+- **Model File**: mnist_cnn_50epochs_latest.h5
+
+- **Framework**: TensorFlow and Keras
+
+- **Training**: Trained on the MNIST dataset for 50 epochs.
+
+### Acknowledgments
+
+- **Made by**: Arnav Kumar
+
