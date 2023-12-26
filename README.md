@@ -1,4 +1,4 @@
-**URL:** [Handwritten Digit Prediction](https://urlzs.com/eS5jY)
+**App Deployed @:** [Handwritten Digit Prediction](https://urlzs.com/eS5jY)
 
 This README file covers the project's components, installation steps, file descriptions, usage instructions, model details, and acknowledgments.
 
