@@ -1,4 +1,4 @@
-**App Deployed @:** [Handwritten Digit Prediction](https://urlzs.com/eS5jY)
+**App Deployed @:** [Handwritten Digit Prediction](http://ec2-3-110-210-151.ap-south-1.compute.amazonaws.com:8080/)
 
 This README file covers the project's components, installation steps, file descriptions, usage instructions, model details, and acknowledgments.
 
